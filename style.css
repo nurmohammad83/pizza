@@ -13,7 +13,7 @@ font-family: 'Bree Serif', serif; */
     height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom, rgb(18 19 22 / 52%), rgb(12 11 12 / 73%)), url(header.jpg);
-    position: fixed;
+    position:fixed;
     z-index: -1;
     opacity: 1.5;
 }
@@ -135,6 +135,7 @@ nav ul li a{
 }
 /* Section food item */
 .food-item{
+    padding: 20px;
     background-color: white;
     background-image: url("style-4.png");
 
@@ -175,5 +176,11 @@ span{
     display: grid;
     grid-template-columns: auto auto;
     gap: 5px;
-    margin: 50px 5px 0px 90px;
+    margin: 50px 5px 50px 90px;
+}
+/* Section manu */
+.menu-title{
+    text-align: center;
+    margin: 20px;
+    color: white;
 }
