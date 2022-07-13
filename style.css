@@ -93,11 +93,11 @@ nav ul li a{
 .working{
     background-color: whitesmoke;
 }
-.working-container{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:50px 120px;
+    padding:50px 135px;
 }
 .working-img{
     width: 180px;;
@@ -132,4 +132,48 @@ nav ul li a{
     padding: 4px 12px;
     color: white;
     background-color: rgb(200, 155, 40);
+}
+/* Section food item */
+.food-item{
+    background-color: white;
+    background-image: url("style-4.png");
+
+}
+.food-title{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.right{
+    margin: 0 10px;
+}
+.del{
+    text-align: right;
+    padding: 0 150px;
+}
+.item-name{
+   margin: 5px 0;
+
+   border-bottom: 1px dotted grey;
+}
+.name{
+    margin: 10px 0;
+}
+.descripton{
+    font-size: 12px;
+}
+span{
+    padding-left: 140px;
+}
+.img-size{
+    width: 60px;
+}
+.item-container{
+    display: flex;
+    width: 85%;
+}
+.six-item{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    margin: 50px 5px 0px 90px;
 }
