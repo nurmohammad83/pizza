@@ -12,7 +12,7 @@ font-family: 'Bree Serif', serif; */
     content: "";
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(18 19 22 / 52%), rgb(12 11 12 / 90%)), url(header.jpg);
+    background-image: linear-gradient(to bottom, rgb(18 19 22 / 52%), rgb(12 11 12 / 90%)), url(img/header.jpg);
     position:fixed;
     z-index: -1;
     opacity: 1.5;
@@ -146,7 +146,7 @@ nav ul li a{
 .food-item{
     padding: 20px;
     background-color: white;
-    background-image: url("style-4.png");
+    background-image: url("img/style-4.png");
 
 }
 .food-title{
@@ -210,7 +210,7 @@ span{
     gap: 100px;
     row-gap: 27px;
     padding: 84px;
-    background-image: url(style-3.png);
+    background-image: url(img/style-3.png);
     background-color: white;
 }
 .menu-button{
@@ -222,7 +222,7 @@ span{
 .chef{
    padding:60px 100px;
     background-color: white;
-    background-image: url("style-1.png");
+    background-image: url("img/style-1.png");
 }
 .card-container{
     display: flex;
@@ -255,7 +255,7 @@ span{
 .testimonial{
     padding: 60px 100px;
     background-color: white;
-    background-image: url("style-3.png");
+    background-image: url("img/style-3.png");
 }
 .test-title{
     text-align: center;
