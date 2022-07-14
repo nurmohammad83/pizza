@@ -12,7 +12,7 @@ font-family: 'Bree Serif', serif; */
     content: "";
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(18 19 22 / 52%), rgb(12 11 12 / 73%)), url(header.jpg);
+    background-image: linear-gradient(to bottom, rgb(18 19 22 / 52%), rgb(12 11 12 / 90%)), url(header.jpg);
     position:fixed;
     z-index: -1;
     opacity: 1.5;
@@ -150,7 +150,7 @@ nav ul li a{
 }
 .food-title{
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
 }
 .right{
     margin: 0 10px;
@@ -178,7 +178,7 @@ span{
 }
 .item-container{
     display: flex;
-    width: 85%;
+    width: 100%;
 }
 .six-item{
     display: grid;
@@ -249,4 +249,90 @@ span{
 .chef-title{
     text-align: center;
     margin: 5px;
+}
+/* Section testimonial */
+.testimonial{
+    padding: 60px 100px;
+    background-color: white;
+    background-image: url("style-3.png");
+}
+.test-title{
+    text-align: center;
+}
+.clint-size{
+    clip-path: circle(33.7% at 50% 50%);
+    width: 60px;
+}
+.clint-title{
+    display: flex;
+}
+.clint-card{
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 12px rgb(148, 128, 128);
+}
+.name{
+    font-size: 18px;
+    padding: 2px;
+}
+.mini{
+font-size: 12px;
+}
+.clint-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Section contract */
+.width-helf{
+    width: 50%;
+    padding: 10px;
+}
+.contract-img{
+    width: 100%;
+}
+/* section contact */
+.contact{
+    background-color: white;
+    padding: 50px 100px;
+}
+.contact-container{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.contact-description input{
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    margin: 10px 3px;
+    outline: none;
+}
+.submit-btn{
+    background-color: goldenrod;
+    width: 100%;
+}
+/* Footer */
+footer{
+    padding: 20px;
+    height: 100px;
+    background-color: black;
+}
+.footer-img{
+    width: 80px;
+    margin: 5px;
+}
+.footer-link{
+    color: white;
+}
+.footer-container{
+    display: flex;
+    color: whitesmoke;
+    justify-content:space-around;
+    align-items: center;
 }
