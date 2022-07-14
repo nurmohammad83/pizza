@@ -159,7 +159,7 @@ nav ul li a{
 .name{
     margin: 10px 0;
 }
-.descripton{
+.description{
     font-size: 12px;
 }
 span{
@@ -179,8 +179,16 @@ span{
     margin: 50px 5px 50px 90px;
 }
 /* Section manu */
+.menu{
+    background-color: white;
+    background-image: url("style-1.png");
+}
 .menu-title{
     text-align: center;
     margin: 20px;
     color: white;
+}
+.manu-card{
+    width: 30%;
+    padding: 10px;
 }
