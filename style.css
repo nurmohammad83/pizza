@@ -81,13 +81,18 @@ nav ul li a{
     padding: 5px;
     color: white;
 }
-.main-title a{
+.main-btn{
     color: whitesmoke;
     background-color: rgba(191, 146, 31, 0.736);
     padding: 8px 12px;
     border-radius: 5px;
     margin: 20px;
     text-decoration: none;
+    transition: .6s;
+}
+.main-btn:hover{
+    background-color: white;
+    color: black;
 }
 /* Section working */
 .working{
@@ -125,6 +130,9 @@ nav ul li a{
 }
 .shift{
     margin: 20px 0;
+}
+.center{
+    color: white;
 }
 .btn{
     font-family: 'Baloo Bhai 2', cursive;
@@ -180,8 +188,7 @@ span{
 }
 /* Section manu */
 .menu{
-    background-color: white;
-    background-image: url("style-1.png");
+  padding: 80px;
 }
 .menu-title{
     text-align: center;
@@ -191,4 +198,21 @@ span{
 .manu-card{
     width: 30%;
     padding: 10px;
+}
+.menu-details{
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+    row-gap: 27px;
+    padding: 84px;
+    background-image: url(style-3.png);
+    background-color: white;
+}
+.menu-button{
+    text-align: center;
+    margin: 35px;
 }
