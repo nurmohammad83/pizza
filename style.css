@@ -6,7 +6,7 @@
 font-family: 'Bree Serif', serif; */
 /* Section top */
 .top-baner{
-    height: 500px;
+    height: 600px;
 }
 .top-baner::before{
     content: "";
