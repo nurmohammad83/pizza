@@ -216,3 +216,37 @@ span{
     text-align: center;
     margin: 35px;
 }
+
+/* Section shef */
+.chef{
+   padding:60px 100px;
+    background-color: white;
+    background-image: url("style-1.png");
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chef-card{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.chef-img{
+    clip-path: circle(50% at 50% 50%);
+    width: 150px;
+}
+.card-link{
+    margin: 10px;
+    color: goldenrod;
+}
+.fa-brands{
+    padding: 0 4px;
+    cursor: pointer;
+}
+.chef-title{
+    text-align: center;
+    margin: 5px;
+}
